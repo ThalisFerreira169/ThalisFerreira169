@@ -1,0 +1,86 @@
+# Galaxy Profile README Configuration
+# Customized for ThalisFerreira169 - Dracula Theme
+
+username: "ThalisFerreira169"
+
+profile:
+    name: "Thalis Ferreira"
+    tagline: "Analista de Qualidade de Software | QA Engineer | Automação"
+    company: ""
+    location: "Ceará, Brasil"
+    bio: |
+        Sou Analista de Qualidade de Software (QA) focado em garantir a entrega de produtos com alta confiabilidade e estabilidade. Tenho experiência em modelagem de cenários de teste, automação de testes (Web, Mobile e API) e integração de testes em pipelines de CI/CD.
+        Também possuo experiência com automação com Cypress, Selenium, Playwright e Robot Framework, além de testes de carga com JMeter e K6 + Grafana.
+    philosophy: '"Qualidade não é um ato, é um hábito." - Aristóteles'
+
+social:
+    email: "thalisferreira169@gmail.com"
+    linkedin: "Thalis Ferreira"
+    website: ""
+
+galaxy_arms:
+    - name: "Test Automation (Web/Mobile)"
+      color: "dendrite_violet"
+      items:
+          - "Playwright"
+          - "Cypress"
+          - "Selenium"
+          - "Robot Framework"
+          - "TypeScript"
+          - "JavaScript"
+          - "Java"
+          - "Python"
+    - name: "API & Performance Testing"
+      color: "synapse_cyan"
+      items:
+          - "Postman"
+          - "Newman"
+          - "K6"
+          - "JMeter"
+          - "SQL Server"
+          - "PostgreSQL"
+    - name: "DevOps & AI Tools"
+      color: "axon_amber"
+      items:
+          - "GitHub Actions"
+          - "Git"
+          - "BitBucket Pipelines"
+          - "GitLab"
+          - "Claude"
+          - "Github Copilot"
+
+projects:
+    - repo: "ThalisFerreira169/4uto Automação"
+      name: "4uto Automação"  
+      arm: 0
+      description: "Projeto de automação de testes utilizando 4 frameworks de automação diferentes."
+    - repo: "ThalisFerreira169/Automação Desktop para TCC"
+      name: "Software de Automação em C"
+      arm: 0
+      description: "Software de testes automatizados baseados em ações registradas, feito em C puro."
+
+theme:
+    void: "#080c14"
+    nebula: "#0f1623"
+    star_dust: "#1a2332"
+    synapse_cyan: "#00d4ff"
+    dendrite_violet: "#a78bfa"
+    axon_amber: "#ffb020"
+    text_bright: "#f1f5f9"
+    text_dim: "#94a3b8"
+    text_faint: "#64748b"
+
+stats:
+    metrics:
+        - "commits"
+        - "stars"
+        - "prs"
+        - "repos"
+
+languages:
+    exclude:
+        - "HTML"
+        - "CSS"
+        - "Shell"
+        - "Makefile"
+    max_display: 6
