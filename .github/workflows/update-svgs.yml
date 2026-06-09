@@ -37,7 +37,8 @@ jobs:
                   cd galaxy-profile
                   cp ../config.yml .
                   GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} python -m generator.main
-                  cp assets/generated/* ../assets/generated/
+                  mkdir -p ../assets/generated/
+                  cp -r assets/generated/* ../assets/generated/
 
             - name: Commit and push changes
               run: |
