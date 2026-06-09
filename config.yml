@@ -50,8 +50,8 @@ galaxy_arms:
           - "Github Copilot"
 
 projects:
-    - repo: "ThalisFerreira169/4uto-automacao"
-      title: "4uto Automação"
+    - name: "4uto Automação"
+      url: "https://github.com/ThalisFerreira169/4uto-automacao"
       arm: 0
       description: "Projeto de automação de testes utilizando 4 frameworks de automação diferentes."
     - repo: "ThalisFerreira169/Automação Desktop para TCC"
