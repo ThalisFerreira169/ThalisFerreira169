@@ -50,12 +50,12 @@ galaxy_arms:
           - "Github Copilot"
 
 projects:
-    - repo: "ThalisFerreira169/4uto Automação"
-      name: "4uto Automação"  
+    - repo: "ThalisFerreira169/4uto-automacao"
+      title: "4uto Automação"
       arm: 0
       description: "Projeto de automação de testes utilizando 4 frameworks de automação diferentes."
     - repo: "ThalisFerreira169/Automação Desktop para TCC"
-      name: "Software de Automação em C"
+      title: "Software de Automação em C"
       arm: 0
       description: "Software de testes automatizados baseados em ações registradas, feito em C puro."
 
